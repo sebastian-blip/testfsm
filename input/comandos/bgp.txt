@@ -1,0 +1,62 @@
+
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"><SOAP:Header><header xmlns="xmlapi_1.0"><requestID>prueba1@1</requestID><requestTime>Apr 9, 2024 11:32:41 AM</requestTime><responseTime>Apr 9, 2024 11:32:41 AM</responseTime></header></SOAP:Header><SOAP:Body><netw.NetworkElement.executeCliResponse xmlns="xmlapi_1.0"><output><cdata><![CDATA[show router bgp summary
+===============================================================================
+ BGP Router ID:10.53.119.209    AS:65002       Local AS:65002
+===============================================================================
+BGP Admin State         : Up          BGP Oper State              : Up
+Total Peer Groups       : 1           Total Peers                 : 2
+Total VPN Peer Groups   : 0           Total VPN Peers             : 0
+Current Internal Groups : 1           Max Internal Groups         : 1
+Total BGP Paths         : 336         Total Path Memory           : 119476
+
+Total IPv4 Remote Rts   : 0           Total IPv4 Rem. Active Rts  : 0
+Total IPv6 Remote Rts   : 0           Total IPv6 Rem. Active Rts  : 0
+Total IPv4 Backup Rts   : 0           Total IPv6 Backup Rts       : 0
+Total LblIpv4 Rem Rts   : 0           Total LblIpv4 Rem. Act Rts  : 0
+Total LblIpv6 Rem Rts   : 0           Total LblIpv6 Rem. Act Rts  : 0
+Total LblIpv4 Bkp Rts   : 0           Total LblIpv6 Bkp Rts       : 0
+Total Supressed Rts     : 0           Total Hist. Rts             : 0
+Total Decay Rts         : 0
+
+Total VPN-IPv4 Rem. Rts : 964         Total VPN-IPv4 Rem. Act. Rts: 646
+Total VPN-IPv6 Rem. Rts : 0           Total VPN-IPv6 Rem. Act. Rts: 0
+Total VPN-IPv4 Bkup Rts : 0           Total VPN-IPv6 Bkup Rts     : 0
+Total VPN Local Rts     : 18          Total VPN Supp. Rts         : 0
+Total VPN Hist. Rts     : 0           Total VPN Decay Rts         : 0
+
+Total MVPN-IPv4 Rem Rts : 0           Total MVPN-IPv4 Rem Act Rts : 0
+Total MVPN-IPv6 Rem Rts : 0           Total MVPN-IPv6 Rem Act Rts : 0
+Total MDT-SAFI Rem Rts  : 0           Total MDT-SAFI Rem Act Rts  : 0
+Total McIPv4 Remote Rts : 0           Total McIPv4 Rem. Active Rts: 0
+Total McIPv6 Remote Rts : 0           Total McIPv6 Rem. Active Rts: 0
+Total McVpnIPv4 Rem Rts : 0           Total McVpnIPv4 Rem Act Rts : 0
+Total McVpnIPv6 Rem Rts : 0           Total McVpnIPv6 Rem Act Rts : 0
+
+Total EVPN Rem Rts      : 0           Total EVPN Rem Act Rts      : 0
+Total L2-VPN Rem. Rts   : 0           Total L2VPN Rem. Act. Rts   : 0
+Total MSPW Rem Rts      : 0           Total MSPW Rem Act Rts      : 0
+Total RouteTgt Rem Rts  : 0           Total RouteTgt Rem Act Rts  : 0
+Total Link State Rem Rts: 0           Total Link State Rem Act Rts: 0
+Total SrPlcyIpv4 Rem Rts: 0           Total SrPlcyIpv4 Rem Act Rts: 0
+Total SrPlcyIpv6 Rem Rts: 0           Total SrPlcyIpv6 Rem Act Rts: 0
+
+===============================================================================
+BGP Summary
+===============================================================================
+Legend : D - Dynamic Neighbor
+===============================================================================
+Neighbor
+Description
+                   AS PktRcvd InQ  Up/Down   State|Rcv/Act/Sent (Addr Family)
+                      PktSent OutQ
+-------------------------------------------------------------------------------
+10.50.2.64
+TO_BUC-BBO-CN01
+                65002  143562    0 49d18h59m 636/318/9 (VpnIPv4)
+                       143533    0
+10.50.2.65
+TO_BUC-BBO-CN02
+                65002  143510    0 49d18h58m 328/328/9 (VpnIPv4)
+                       143532    0
+-------------------------------------------------------------------------------
+]]></cdata></output></netw.NetworkElement.executeCliResponse></SOAP:Body></SOAP:Envelope>

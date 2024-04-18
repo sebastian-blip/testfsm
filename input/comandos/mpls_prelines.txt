@@ -1,0 +1,4 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"><SOAP:Header><header xmlns="xmlapi_1.0"><requestID>prueba1@1</requestID><requestTime>Apr 9, 2024 11:39:51 AM</requestTime><responseTime>Apr 9, 2024 11:39:51 AM</responseTime></header></SOAP:Header><SOAP:Body><netw.NetworkElement.executeCliResponse xmlns="xmlapi_1.0"><output><cdata><![CDATA[show router mpls lsp | match "10.53.101.185" pre-lines 1
+To_AAC-CAR.BOCAGRANDE-M1           10.53.101.105    41      Yes       Up   Dwn
+To_ AAC-CAR.DIAMANTE2-M1           10.53.101.185    42      Yes       Up   Up
+]]></cdata></output></netw.NetworkElement.executeCliResponse></SOAP:Body></SOAP:Envelope>

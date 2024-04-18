@@ -1,0 +1,3 @@
+,Neighbor,Description,AS,PktRcvd_InQ,UpDown,State,Rcv,Addr_Family
+0,10.50.2.64,TO_BUC-BBO-CN01,65002,143562,0,49d18h59m,636/318/9,(VpnIPv4)
+1,10.50.2.65,TO_BUC-BBO-CN02,65002,143510,0,49d18h58m,328/328/9,(VpnIPv4)

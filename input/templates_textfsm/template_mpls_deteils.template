@@ -1,0 +1,5 @@
+Value Ip_first ((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}))
+Value Ip_second ((\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}))
+
+Start
+  ^\s*(?:->\s*)?${Ip_first}\s*(?:\()?\s*${Ip_second} -> Record

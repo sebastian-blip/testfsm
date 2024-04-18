@@ -1,0 +1,14 @@
+Value Neighbor (\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})
+Value Description (^(?!]])^(?!-)\S+)
+Value AS (\d+)
+Value PktRcvd_InQ (\d+)
+Value UpDown (\d{1})
+Value State (\S+)
+Value Rcv (\S+)
+Value Addr_Family (\S+)
+
+
+Start
+  ^${Neighbor}
+  ^${Description}
+  ^\s+${AS}\s+${PktRcvd_InQ}\s+${UpDown}\s+${State}\s+${Rcv}\s+${Addr_Family} -> Record

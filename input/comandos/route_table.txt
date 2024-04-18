@@ -1,0 +1,38 @@
+
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"><SOAP:Header><header xmlns="xmlapi_1.0"><requestID>tesamerica@97692266478</requestID><requestTime>Apr 9, 2024 11:42:49 AM</requestTime><responseTime>Apr 9, 2024 11:42:49 AM</responseTime></header></SOAP:Header><SOAP:Body><netw.NetworkElement.executeCliResponse xmlns="xmlapi_1.0"><output><cdata><![CDATA[show router 1003400 route-table "10.227.248.30"
+
+===============================================================================
+Route Table (Service: 1003400)
+===============================================================================
+Dest Prefix[Flags]                            Type    Proto     Age        Pref
+      Next Hop[Interface Name]                                    Metric
+-------------------------------------------------------------------------------
+10.227.248.24/29                              Remote  BGP VPN   07d12h33m  170
+       10.53.101.185 (tunneled:RSVP:42)                             0
+-------------------------------------------------------------------------------
+No. of Routes: 1
+Flags: n = Number of times nexthop is repeated
+       B = BGP backup route available
+       L = LFA nexthop available
+       S = Sticky ECMP requested
+===============================================================================
+]]></cdata></output></netw.NetworkElement.executeCliResponse><XMLException xmlns="xmlapi_1.0"><description>Expected element in namespace 'xmlapi_1.0'</description><line>16</line><column>19</column></XMLException></SOAP:Body></SOAP:Envelope>
+
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"><SOAP:Header><header xmlns="xmlapi_1.0"><requestID>tesamerica@97661016077</requestID><requestTime>Apr 9, 2024 11:42:46 AM</requestTime><responseTime>Apr 9, 2024 11:42:46 AM</responseTime></header></SOAP:Header><SOAP:Body><netw.NetworkElement.executeCliResponse xmlns="xmlapi_1.0"><output><cdata><![CDATA[show router 1003400 route-table "10.227.248.30"
+
+===============================================================================
+Route Table (Service: 1003400)
+===============================================================================
+Dest Prefix[Flags]                            Type    Proto     Age        Pref
+      Next Hop[Interface Name]                                    Metric
+-------------------------------------------------------------------------------
+10.227.248.24/29                              Remote  BGP VPN   07d12h33m  170
+       10.53.101.185 (tunneled:RSVP:89)                             0
+-------------------------------------------------------------------------------
+No. of Routes: 1
+Flags: n = Number of times nexthop is repeated
+       B = BGP backup route available
+       L = LFA nexthop available
+       S = Sticky ECMP requested
+===============================================================================
+]]></cdata></output></netw.NetworkElement.executeCliResponse><XMLException xmlns="xmlapi_1.0"><description>Expected element in namespace 'xmlapi_1.0'</description><line>16</line><column>19</column></XMLException></SOAP:Body></SOAP:Envelope>

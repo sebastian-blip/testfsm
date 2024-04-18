@@ -1,0 +1,83 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/"><SOAP:Header><header xmlns="xmlapi_1.0"><requestID>tesamerica@97850658509</requestID><requestTime>Apr 9, 2024 11:43:04 AM</requestTime><responseTime>Apr 9, 2024 11:43:04 AM</responseTime></header></SOAP:Header><SOAP:Body><netw.NetworkElement.executeCliResponse xmlns="xmlapi_1.0"><output><cdata><![CDATA[show router mpls lsp "To_ AAC-CAR.DIAMANTE2-M1" path detail
+
+===============================================================================
+MPLS LSP To_ AAC-CAR.DIAMANTE2-M1 Path  (Detail)
+===============================================================================
+Legend :
+    @ - Detour Available              # - Detour In Use
+    b - Bandwidth Protected           n - Node Protected
+    s - Soft Preemption
+    S - Strict                        L - Loose
+    A - ABR                           + - Inherited
+===============================================================================
+-------------------------------------------------------------------------------
+LSP To_ AAC-CAR.DIAMANTE2-M1 Path To_ AAC-CAR.DIAMANTE2-M1
+-------------------------------------------------------------------------------
+LSP Name         : To_ AAC-CAR.DIAMANTE2-M1
+From             : 10.53.62.57          To                   : 10.53.101.185
+Admin State      : Up                   Oper State           : Up
+Path Name        : To_ AAC-CAR.DIAMANTE2-M1
+Path LSP ID      : 43484                Path Type            : Primary
+Path Admin       : Up                   Path Oper            : Up
+Out Interface    : lag-20               Out Label            : 524104
+Path Up Time     : 7d 12:33:35          Path Down Time       : 0d 00:00:00
+Retry Limit      : 0                    Retry Timer          : 30 sec
+Retry Attempt    : 0                    Next Retry In        : 0 sec
+BFD Template     : None                 BFD Ping Interval    : 60
+BFD Enable       : False
+
+Adspec           : Enabled              Oper Adspec          : Enabled
+CSPF             : Enabled              Oper CSPF            : Enabled
+Least Fill       : Disabled             Oper LeastFill       : Disabled
+FRR              : Enabled              Oper FRR             : Enabled
+FRR NodeProtect  : Enabled              Oper FRR NP          : Enabled
+FR Hop Limit     : 16                   Oper FRHopLimit      : 16
+FR Prop Admin Gr*: Disabled             Oper FRPropAdmGrp    : Disabled
+Propogate Adm Grp: Disabled             Oper Prop Adm Grp    : Disabled
+Inter-area       : False
+
+PCE Report       : Disabled+            Oper PCE Report      : Disabled
+PCE Control      : Disabled             Oper PCE Control     : Disabled
+PCE Compute      : Disabled             Oper PCE Compute     : Disabled
+PCE Update ID    : 0
+
+Neg MTU          : 1532                 Oper MTU             : 1532
+Bandwidth        : No Reservation       Oper Bandwidth       : 0 Mbps
+Hop Limit        : 255                  Oper HopLimit        : 255
+Record Route     : Record               Oper Record Route    : Record
+Record Label     : Record               Oper Record Label    : Record
+Setup Priority   : 7                    Oper Setup Priority  : 7
+Hold Priority    : 0                    Oper Hold Priority   : 0
+Class Type       : 0                    Oper CT              : 0
+Backup CT        : None
+MainCT Retry     : n/a
+    Rem          :
+MainCT Retry     : 0
+    Limit        :
+Include Groups   :                      Oper Include Groups  :
+None                                           None
+Exclude Groups   :                      Oper Exclude Groups  :
+None                                           None
+
+Adaptive         : Enabled              Oper Metric          : 20
+Preference       : n/a
+Path Trans       : 733                  CSPF Queries         : 56928
+Failure Code     : noError
+Failure Node     : n/a
+Explicit Hops    :
+    10.53.101.185(L)
+Actual Hops      :
+    10.50.26.41 (10.50.2.190) @                  Record Label        : N/A
+ -> 10.50.26.40 (10.50.2.128)                    Record Label        : 524104
+ -> 10.53.203.89 (10.53.101.185)                 Record Label        : 131066
+Computed Hops    :
+    10.50.26.41(S)
+ -> 10.50.26.40(S)
+ -> 10.53.203.89(S)
+Resignal Eligible: False
+Last Resignal    : 04/09/2024 11:29:48  CSPF Metric          : 20
+===============================================================================
+* indicates that the corresponding row element may have been truncated.
+]]></cdata></output></netw.NetworkElement.executeCliResponse><XMLException xmlns="xmlapi_1.0"><description>Expected element in namespace 'xmlapi_1.0'</description><line>16</line><column>19</column></XMLException></SOAP:Body></SOAP:Envelope>
+
+------------------------------------------------------------------------------------------------------------------------

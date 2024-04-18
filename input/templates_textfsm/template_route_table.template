@@ -1,0 +1,10 @@
+Value Dest_Prefix (\b(?:\d{1,3}\.){3}\d{1,3}\b)
+Value Mask ((?=\d{1,2}\b)(\d{1,2}))
+Value Type (\S+)
+Value Next_hope ((\d+\.\d+\.\d+\.\d+))
+Value tunneled (\S+\d+)
+
+
+Start
+  ^${Dest_Prefix}/${Mask}\s+${Type}
+  ^\s+${Next_hope} \(tunneled:RSVP:${tunneled} -> Record
